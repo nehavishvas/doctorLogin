@@ -1,0 +1,98 @@
+.Forgot-main {
+  width: 100%;
+  height: 100vh;
+  background-color: ghostwhite;
+
+  background-image: url("/public/assets/img/loginimage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Forgot-main-sub-body {
+  width: 100%;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: black;
+  color: #006400;
+}
+
+.Forgot-main-sub-body-forgot-box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  width: 470px;
+  height: 280px;
+  box-shadow: 1px 1px 5px 2px rgba(22, 22, 22, 0.5);
+  background-color: rgb(196, 222, 167);
+  padding: 25px;
+  border-radius: 6px;
+}
+
+.Forgot-main-sub-body-forgot-box-sub-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Forgot-main-sub-body-forgot-box-sub-first-sub-first {
+  width: 340px;
+  height: 70px;
+}
+
+.Forgot-main-sub-body-forgot-box-sub-first-sub-second {
+  font-size: 30px;
+}
+
+.Forgot-main-sub-body-forgot-box-sub-second-sub-second input {
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  padding-inline: 15px;
+  margin-top: 7px;
+}
+
+.Forgot-main-sub-body-forgot-box-sub-second-sub-second {
+  position: relative;
+}
+
+.forgoterror {
+  position: absolute;
+  color: red;
+  left: 0px;
+  top: 38px;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.Forgot-main-sub-body-forgot-box-sub-third {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+  align-items: center;
+}
+
+.Forgot-main-sub-body-forgot-box-sub-third-button {
+  width: 50%;
+  height: 30px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  color: rgb(87, 85, 85);
+}
+
+.Login-main-sub-body-login-box-sub-fifth a {
+  text-decoration: none;
+  color: rgb(187, 189, 191);
+}

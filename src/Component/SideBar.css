@@ -1,0 +1,52 @@
+.ant-menu-light .ant-menu-item-selected {
+  background-color: rgb(71, 160, 71) !important;
+  color: white !important;
+}
+.ant-menu-light
+  .ant-menu-item:not(.ant-menu-item-selected):not(
+    .ant-menu-submenu-selected
+  ):hover {
+  background-color: rgb(71, 160, 71);
+  color: white !important;
+}
+
+.ant-menu li {
+  color: white !important;
+}
+
+.ant-menu-light .ant-menu-item {
+  color: black !important;
+}
+
+.contentlayout {
+  margin: 1px !important;
+}
+
+.custom-slider {
+  width: 250px !important;
+  max-width: 250px !important;
+  min-width: 250px !important;
+}
+
+.ant-layout-sider-collapsed {
+  width: 80px !important;
+  max-width: 80px !important;
+  min-width: 80px !important;
+}
+
+/* .ant-menu-submenu {
+  background-color: rgb(8, 8, 8) !important;
+}
+.ant-menu-submenu .ant-menu-item {
+  background-color: black !important; 
+  color: white !important;
+}
+
+.ant-menu-submenu-title {
+  color: black !important; 
+  background-color: rgb(
+    196,
+    222,
+    167
+  ) !important; 
+} */

@@ -1,0 +1,105 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container2 {
+  display: flex;
+}
+.main {
+  width: 100%;
+  padding: 20px;
+  height: 100vh;
+}
+.sidebar {
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.logo {
+  font-size: 30px;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 30px;
+}
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover {
+  background: lightskyblue;
+  color: #000;
+  transform: all 0.5s;
+}
+.active {
+  background: lightskyblue;
+  color: #000;
+}
+.icone,
+.line_text {
+  font-size: 20px;
+}
+
+.addressdetails,
+.emergencycontactdetails {
+  margin-top: 35px;
+}
+
+.todaybutton .btn {
+  background-color: rgb(196, 222, 167);
+}
+
+.todaybutton .btn:hover {
+  background-color: rgb(71, 160, 71);
+}

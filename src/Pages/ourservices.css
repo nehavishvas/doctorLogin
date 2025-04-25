@@ -1,0 +1,44 @@
+.main-allservices{
+    width: 100%;
+    padding: 0px 35px;
+
+
+}
+
+.allservices{
+    width: 100%;
+    border: 1px solid rgb(207, 200, 200);
+    padding: 15px 15px;
+
+}
+
+.allservices-first{
+    display: flex;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.allservices-first div{
+flex:1;
+}
+
+.allservices-first div{
+
+}
+.allservices-second{
+    display: flex;
+}
+
+.allservices-second div{
+flex: 1;}
+
+
+
+.allservices-first .allservices-first-fourth,
+
+.allservices-second .allservices-second-fourth{
+
+    text-align: center;
+}

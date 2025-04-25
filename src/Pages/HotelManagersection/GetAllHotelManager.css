@@ -1,0 +1,86 @@
+.badge-warning {
+    color: #212529;
+    background-color: #fec400;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 75%;
+    font-weight: 500;
+    line-height: 9px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 10px;
+    -webkit-transition: color 0.15s ease-in-out,
+      background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+      -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+      -webkit-box-shadow 0.15s ease-in-out;
+  }
+  .badge-success {
+    color: #ffffff;
+    background-color: #29cc97;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 75%;
+    font-weight: 500;
+    line-height: 9px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 10px;
+    -webkit-transition: color 0.15s ease-in-out,
+      background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+      -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+      -webkit-box-shadow 0.15s ease-in-out;
+  }
+  .badge {
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 0.75em;
+  }
+  .btn-outline-success:focus {
+    box-shadow: none !important;
+  }
+  .css-rorn0c-MuiTableContainer-root {
+    overflow-x: hidden !important;
+  }
+  
+
+ .Approved,.Rejected{
+
+    width: 100px;
+color: white;
+
+
+  }
+
+
+  .fa-circle-check{
+    font-size: 25px;
+    color: rgb(32, 112, 32);
+    margin-right: 10px ;
+    cursor: pointer;
+  }
+ .fa-circle-xmark{
+
+  font-size: 25px;
+  color: rgb(194, 38, 38);
+  cursor: pointer;
+ }

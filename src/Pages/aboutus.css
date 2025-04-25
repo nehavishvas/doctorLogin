@@ -1,0 +1,21 @@
+.cmsaboutusupdatebtn {
+  width: 100px;
+  padding: 6px;
+  font-size: 18px;
+  border-radius: 6px;
+  background-color: rgb(41, 75, 147);
+  color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.aboutheading {
+  border: 1px solid rgb(216, 213, 213);
+  margin-bottom: 15px !important;
+  padding: 5px 0px 5px 10px;
+}
+.aboutheading:focus {
+  outline: none;
+}
